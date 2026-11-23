@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DATA_PATH = BASE_DIR / "Dataset" / "customer_churn_data.csv"
+DATA_PATH = BASE_DIR / "DataSet" / "customer_churn_data.csv"
 MODEL_PATH = BASE_DIR / "model.pkl"
 SCALER_PATH = BASE_DIR / "scaler.pkl"
 
@@ -502,3 +502,4 @@ st.sidebar.caption(
 st.sidebar.caption(
     "Python | Machine Learning | Streamlit"
 )
+
